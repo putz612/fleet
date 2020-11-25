@@ -15,13 +15,13 @@ helm:
   chart: ""
 
   # An https to a valid Helm repository to download the chart from
-  repo: ""
+  repo: "https://helm.influxdata.com/"
 
   # Used if repo is set to look up the version of the chart
-  version: ""
+  version: "4.8.9"
 
   # Force recreate resource that can not be updated
-  force: false
+  force: true
 
   # How long for helm to wait for the release to be active. If the value
   # is less that or equal to zero, we will not wait in Helm
